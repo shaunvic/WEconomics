@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEconomics Recruitment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="WEconomics Logo" class="header-logo">
+        </div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#employers">For Employers</a>
+            <a href="#jobseekers">For Job Seekers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#shortlist-form" class="btn-primary">Request Your Shortlist</a>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hire Smarter. Pay Only When You Find a Right Fit.</h1>
+            <p>Curated shortlists of top talent—no upfront costs, just results.</p>
+            <a href="#shortlist-form" class="btn-secondary">Get Your Free Candidate Shortlist</a>
+        </div>
+    </section>
+
+    <section id="about" class="value-prop">
+        <h2>Our Value Proposition</h2>
+        <div class="value-grid">
+            <div class="value-item">
+                <h3>Risk-Free Recruitment</h3>
+                <p>Pay only when you hire. No upfront fees, no hidden costs.</p>
+            </div>
+            <div class="value-item">
+                <h3>Culture-First Hiring</h3>
+                <p>We align talent with your company vision for long-term success.</p>
+            </div>
+            <div class="value-item">
+                <h3>Fast Turnaround</h3>
+                <p>Receive curated shortlists within 48 hours.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Specialized Services 💼</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Contingency Recruitment</h3>
+                <p>Our core service. You only pay a fee upon the **successful placement** and start date of a candidate. Ideal for quick, risk-free hiring across all levels.</p>
+                <ul>
+                    <li>✅ Risk-Free, Success-Only Fee</li>
+                    <li>✅ 48-Hour Shortlist Delivery</li>
+                    <li>✅ 90-Day Placement Guarantee</li>
+                </ul>
+                <a href="#shortlist-form" class="btn-primary">Start Hiring</a>
+            </div>
+            <div class="service-card">
+                <h3>Executive Search (Retained)</h3>
+                <p>A specialized approach for **C-level and senior leadership** roles. This dedicated service includes market mapping, extensive background checks, and strategic consultation.</p>
+                <ul>
+                    <li>✅ Dedicated Research Team</li>
+                    <li>✅ Confidential Market Approach</li>
+                    <li>✅ Comprehensive Candidate Vetting</li>
+                </ul>
+                <a href="#contact" class="btn-secondary">Inquire Now</a>
+            </div>
+            <div class="service-card">
+                <h3>Talent Mapping & Insights</h3>
+                <p>Need to understand the market for future roles? We provide detailed reports on **salary benchmarks, competitor structure,** and talent availability in your sector.</p>
+                <ul>
+                    <li>✅ Salary and Compensation Data</li>
+                    <li>✅ Sector-Specific Talent Pool Analysis</li>
+                    <li>✅ Future Workforce Strategy</li>
+                </ul>
+                <a href="#contact" class="btn-primary">Get Market Data</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">Share your hiring needs</div>
+            <div class="step">Receive a curated shortlist</div>
+            <div class="step">Hire with confidence</div>
+        </div>
+    </section>
+
+    <section class="social-proof">
+        <blockquote>
+            “The curated shortlists saved us so much time and effort. We hired an excellent candidate who’s been a perfect fit.”
+        </blockquote>
+        <div class="stats">
+            <div><strong>90%</strong> retention after 6 months</div>
+            <div><strong>48-hour</strong> shortlist turnaround</div>
+            <div><strong>100+</strong> successful placements</div>
+        </div>
+    </section>
+
+    <section class="split-section">
+        <div id="employers" class="split">
+            <h3>For Employers</h3>
+            <p>Find the right talent without upfront risk.</p>
+            <a href="#shortlist-form" class="btn-secondary">Request Shortlist</a>
+        </div>
+        <div id="jobseekers" class="split">
+            <h3>For Job Seekers</h3>
+            <p>Discover roles that fit your career goals.</p>
+            <a href="#submit-cv-form" class="btn-secondary">Submit Your CV</a>
+        </div>
+    </section>
+
+    <section id="shortlist-form" class="form-section">
+        <div class="form-container">
+            <h2>Start Your Risk-Free Search</h2>
+            <p>Fill out the form below and we'll send your curated candidate shortlist within 48 hours.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">Role You Are Hiring For</label>
+                    <input type="text" id="role" name="role" placeholder="e.g., Senior Economist, Data Analyst" required>
+                </div>
+                <div class="form-group">
+                    <label for="details">Additional Requirements/Details</label>
+                    <textarea id="details" name="details" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Get My Free Shortlist</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="submit-cv-form" class="form-section jobseeker-form-section">
+        <div class="form-container">
+            <h2>Take the Next Step in Your Career</h2>
+            <p>Upload your CV and let our specialists match you with top opportunities in economics and finance.</p>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="js-name">Full Name</label>
+                    <input type="text" id="js-name" name="js-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="js-email">Email Address</label>
+                    <input type="email" id="js-email" name="js-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="js-role">Target Role/Area</label>
+                    <input type="text" id="js-role" name="js-role" placeholder="e.g., Quantitative Analyst, Economic Consultant" required>
+                </div>
+                <div class="form-group">
+                    <label for="js-cv">Upload Your CV (PDF or DOCX)</label>
+                    <input type="file" id="js-cv" name="js-cv" accept=".pdf, .docx" required>
+                </div>
+                <div class="form-group">
+                    <label for="js-message">Message to Recruiter (Optional)</label>
+                    <textarea id="js-message" name="js-message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-secondary">Submit CV and Register</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="final-cta">
+        <h2>Ready to Hire Smarter?</h2>
+        <a href="#shortlist-form" class="btn-primary">Book a Free Consultation</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#about">About</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="#linkedin">LinkedIn</a> | <a href="#facebook">Facebook</a> | <a href="#instagram">Instagram</a>
+        </div>
+        <p>© 2025 WEconomics Recruitment | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms</a></p>
+    </footer>
+</body>
+</html>
